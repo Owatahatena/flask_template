@@ -1,5 +1,4 @@
 import mysql.connector
-from sql_exe import insert,select
 
 class DB:
     def __init__(self,user, password, host_address, database_name):
